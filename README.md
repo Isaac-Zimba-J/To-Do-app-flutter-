@@ -1,16 +1,14 @@
-# main_todo_app
+# Todo_app
 
-A new Flutter project.
+This is a To do app that allows you to keep trackof your day to day small tasks
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+Just has some basic features as 
+- Addtodo item
+- Edit item
+- Delete item
+- Search for item
 
-A few resources to get you started if this is your first Flutter project:
+You can play around with the code however you want and suggestions and improvements are welcome.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
