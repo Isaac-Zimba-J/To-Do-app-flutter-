@@ -1,24 +1,25 @@
 import 'package:flutter/material.dart';
 
 class ToDo {
-  String? Id;
-  String? TodoText;
-  bool? IsDone;
+  String Id;
+  String TodoText;
+  bool isDone;
 
   ToDo({
     required this.Id,
     required this.TodoText,
-    this.IsDone = false,
+    this.isDone = false,
   });
 
   static List<ToDo> todoList() {
     return [
-      ToDo(Id: '01', TodoText: 'Morning excerciese', IsDone: true),
-      ToDo(Id: '02', TodoText: 'Buy groceries', IsDone: false),
-      ToDo(Id: '03', TodoText: 'Eat Sera', IsDone: false),
-      ToDo(Id: '04', TodoText: 'attend meeting'),
-      ToDo(Id: '05', TodoText: 'Work on blazor for 2 hours excerciese a day'),
-      ToDo(Id: '06', TodoText: 'Afternoon excerciese'),
+      ToDo(
+          Id: '01',
+          TodoText:
+              'When you finish an item click the bin on the right to delete ',
+          isDone: false),
+      ToDo(Id: '02', TodoText: 'This is not done', isDone: false),
+      ToDo(Id: '03', TodoText: 'This is a done item', isDone: true),
     ];
   }
 }
